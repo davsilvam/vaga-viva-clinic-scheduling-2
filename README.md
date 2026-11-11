@@ -4,6 +4,19 @@ Repositório-modelo do arquétipo `typescript-node` do Vaga Viva: a API de um si
 
 O projeto começa incompleto. Cada missão do seu plano tem testes automatizados que falham até você implementá-la. O contrato de cada missão está em `missoes/`.
 
+## Seu projeto
+
+Este projeto foi montado para uma vaga de nível pleno que pede Programação em TypeScript, Testes automatizados, Design de APIs, SQL, Controle de versão, Contêineres, Integração e entrega contínuas, Node.js e NestJS. A vaga também pede Java, Spring Boot e Angular, que este projeto não pratica; o que ele treina em TypeScript, Node.js, Express e NestJS continua valendo para ela. Ele se passa num domínio fictício, **Agendamento de clínica**: sistema de uma clínica para cadastrar pacientes e agendar consultas com profissionais de saúde. Cada missão abaixo tem uma issue com o que fazer e testes que só passam quando ela estiver pronta.
+
+| Ordem | Missão | Issue |
+| --- | --- | --- |
+| 1 | Cadastro de pacientes | [#1](https://github.com/davsilvam/vaga-viva-clinic-scheduling-2/issues/1) |
+| 2 | Pacientes no banco de dados | [#2](https://github.com/davsilvam/vaga-viva-clinic-scheduling-2/issues/2) |
+| 3 | Validação e mensagens de erro | [#3](https://github.com/davsilvam/vaga-viva-clinic-scheduling-2/issues/3) |
+| 4 | Listagem paginada de consultas | [#4](https://github.com/davsilvam/vaga-viva-clinic-scheduling-2/issues/4) |
+| 5 | Pipeline de integração contínua | [#5](https://github.com/davsilvam/vaga-viva-clinic-scheduling-2/issues/5) |
+| 6 | Regras de agendamento | [#6](https://github.com/davsilvam/vaga-viva-clinic-scheduling-2/issues/6) |
+
 ## Tecnologias
 
 Node.js 22, TypeScript, NestJS, Prisma, PostgreSQL 17, Luxon, Jest, Supertest e Testcontainers.
